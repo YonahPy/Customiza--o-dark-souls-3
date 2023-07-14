@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dourado-escuro: #4A4116;
+    --dourado-meio: #AC9313;
+    --dourado-claro:#DFD54A ;
+    --preto:#16101B;
+
+}
+@font-face{
+    font-family: 'dark-souls';
+    src: url(imagens/OptimusPrincepsSemiBold.ttf);
+}
+body{
+    background: url(imagens/wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+h1{
+    font-family: dark-souls;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 30px;
+    background-color: var(--preto);
+
+}
+
+
+h2{
+    font-family: dark-souls;
+    display: inline;
+    padding-left: 10px;
+    
+}
+
+#icone{
+    width: 40px;
+    display: inline;
+    padding-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    background-color: var(--preto);
+}
+
+.imagem > img{
+    
+    width: 300px;
+    
+}
+label{
+    color: white;
+    padding: 25px 3px 25px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: ;
+}
+input{
+    margin: 15px;
+}
+#iclasse{
+    margin-bottom: 15px;
+}
