@@ -1,4 +1,3 @@
-@@ -0,0 +1,78 @@
 @charset "UTF-8";
 
 * {
@@ -24,6 +23,11 @@ body{
     
 
 }
+
+main{
+    margin-top: 30px;
+}
+
 h1{
     font-family: dark-souls;
     text-align: center;
@@ -35,7 +39,7 @@ h1{
     display: flex;
     align-items: center;
     margin-top: 40px;
-    padding-top: 10px;
+    padding-top: 25px;
     background-color: var(--preto);
     width: 90%;
     margin: auto;
@@ -68,6 +72,7 @@ h2{
     width: 90%;
     margin: auto;
     padding-bottom: 30px;
+    padding-top: 10px;
     justify-content: space-evenly;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -88,10 +93,30 @@ label{
 }
 input{
     margin: 15px;
-    border: none;
-    border-radius: 4px ;
+    border: 2px solid var(--dourado-escuro);
+    border-radius: 6px;
+    font-family: dark-souls;
+    padding: 3px;
+    
     
 }
+
+select{
+    border: 2px solid var(--dourado-escuro);
+    border-radius: 6px;
+    font-family: dark-souls;
+    padding: 3px;
+       
+}
+
+select option{
+    background-color: #4A4116;
+    color: #120d16;
+    font-family: dark-souls;
+    margin: 3px;
+    padding: 3px;
+}
+
 
 
 #iclasse{
@@ -100,7 +125,21 @@ input{
 
 img{
     width: 35%;
+    border-radius: 3px;
 
+}
+
+#enviar{
+    background-color: #120d16;
+    color: var(--dourado-escuro);
+    padding: 5px;
+    
+}
+#enviar:hover{
+    background-color: #74620d;
+    color: var(--preto);
+    transform: translate(-2px, -2px);
+    transition: transform 0.3s;
 }
 
  
