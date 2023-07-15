@@ -12,53 +12,59 @@
     
     <main>
         <div class="menu">
-            <h2><img src="imagens/DesignBust_dark_souls_3_games_folder_icon256.png" alt="icone dark souls 2" id="icone">Criação de personagem</h2>
+            <h2>Criar personagem</h2>
         </div>
         <div class="container">
 
-            <div class="formulario">
-                <form action="#" method="post"></form>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" autocomplete="name" required><br>
+    
+                <div class="formulario">
+                    <form action="#" method="post"></form>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" autocomplete="name" required><br>
+    
+                    <div class="div-form">
+                        <label for="igenero">Gênero</label>
+                        <select name="genero" id="igenero">
+                            <option value="M" style="background-color: rgb(12, 126, 141);">Masculino</option>
+                            <option value="F" style="background-color: palevioletred;">Feminino</option>
+                        </select><br>
+                    </div>
+    
+                    <label for="iidade">Idade </label>
+                    <input type="number" name="idade" id="iidade" min="1" max="150"> <br>
+    
+                    <label for="iclasse">Classe</label>
+                    <select name="classe" id="iclasse" >
+                        <option
+    
+                        value="Cavaleiro">Cavaleiro</option>
+                        <option value="Mercenário">Mercenário</option>
+                        <option value="Guerreiro">Guerreiro</option>
+                        <option value="Arauto">Arauto</option>
+                        <option value="Ladrão">Ladrão</option>
+                        <option value="Assassino">Assassino</option>
+                        <option value="Feiticeiro">Feiticeiro</option>
+                        <option value="Piromante">Piromante</option>
+                        <option value="Clérigo">Clérigo</option>
+                        <option value="Despojado">Despojado</option>
+                    </select><br>
+    
+    
+                    <label for="iitem">Item de Sepulcro </label>
+                    <select name="item" id="iitem">
+                        <option value="Anel">Anel da Vida</option>
+                        <option value="Benção divina">Benção Divina</option>
+                        <option value="Benção Oculta">Benção Oculta</option>
+                        <option value="Bomba">Bomba Incendiária Negra</option>
+                        <option value="Joia">Joia de Fogo</option>
+                        <option value="Alma">Alma sem soberano</option>
+                        <option value="Moeda">Moeda de Ouro Enferrujada</option>
+                        <option value="Orbe">Orbe de Olho Vermelho Quebrado</option>
+                        <option value="Galho">Galho Branco Jovem</option>
+                    </select><br>
+    
+                    <input type="submit" style="margin-left: 25px;">
 
-                <label for="igenero">Gênero</label>
-                <select name="genero" id="igenero"> 
-                    <option value="M">Masculino</option>
-                    <option value="F">Feminino</option>
-                </select><br>
-
-                <label for="iidade">Idade </label>
-                <input type="number" name="idade" id="iidade" min="1" max="150"> <br>
-                
-                <label for="iclasse">Classe</label>
-                <select name="classe" id="iclasse"> 
-                    <option value="Cavaleiro">Cavaleiro</option>
-                    <option value="Mercenário">Mercenário</option>
-                    <option value="Guerreiro">Guerreiro</option>
-                    <option value="Arauto">Arauto</option>
-                    <option value="Ladrão">Ladrão</option>
-                    <option value="Assassino">Assassino</option>
-                    <option value="Feiticeiro">Feiticeiro</option>
-                    <option value="Piromante">Piromante</option>
-                    <option value="Clérigo">Clérigo</option>
-                    <option value="Despojado">Despojado</option>
-                </select><br>
-
-
-                <label for="iitem">Item de Sepulcro </label>
-                <select name="item" id="iitem">
-                    <option value="Anel">Anel da Vida</option>
-                    <option value="Benção divina">Benção Divina</option>
-                    <option value="Benção Oculta">Benção Oculta</option>
-                    <option value="Bomba">Bomba Incendiária Negra</option>
-                    <option value="Joia">Joia de Fogo</option>
-                    <option value="Alma">Alma sem soberano</option>
-                    <option value="Moeda">Moeda de Ouro Enferrujada</option>
-                    <option value="Orbe">Orbe de Olho Vermelho Quebrado</option>
-                    <option value="Galho">Galho Branco Jovem</option>
-                </select><br>
-
-                <input type="submit" style="margin-left: 25px;">
                 
             </div>
 
