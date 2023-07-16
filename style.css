@@ -36,6 +36,7 @@ h1{
 }
 
 .menu{
+    
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -49,6 +50,7 @@ h1{
     border-top: 5px solid var(--dourado-escuro);
     border-left: 5px solid var(--dourado-escuro);
     border-right: 5px solid var(--dourado-escuro);
+    
 
 }
 
@@ -67,6 +69,7 @@ h2{
 
 
 .container{
+    
     display: flex;
     background-color: var(--preto);
     width: 80%;
@@ -80,6 +83,7 @@ h2{
     border-left: 5px solid var(--dourado-escuro);
     border-right: 5px solid var(--dourado-escuro);
     border-bottom: 5px solid var(--dourado-escuro);
+    
 }
 
 
@@ -168,5 +172,7 @@ img{
     }
     
 }
+
+
 
  
