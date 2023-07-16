@@ -153,15 +153,16 @@ img{
 
 
 @media screen and (max-width: 742px){
-    input{
-        width: 30%;
-    }
-    select{
-        width: 17%;
+    img{
+        display: none;
     }
     
+    #iitem{
+            width: 20vw;
+        }
+    }
     
-}
+
 
 @media screen and (min-width: 743px){
 
@@ -171,6 +172,9 @@ img{
     select{
         width: 20vw;
     }
+    
+
+
     
 }
 
